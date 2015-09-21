@@ -1,0 +1,30 @@
+{
+  "name": "install-script-cli",
+  "version": "1.0.0",
+  "description": "Generate installation scripts for your CLI modules on npm",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": "vdemedes/install-script-cli",
+  "author": {
+    "name": "Vadim",
+    "email": "vdemedes@gmail.com",
+    "url": "https://github.com/vdemedes"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "dependencies": {
+    "install-script": "^1.0.0",
+    "meow": "^3.3.0"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "mz": "^2.0.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "bin": {
+    "install-script": "index.js"
+  }
+}
